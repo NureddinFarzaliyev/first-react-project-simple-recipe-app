@@ -1,4 +1,4 @@
-# first-react-project-simple-recipe-app
+# My First React Project - Simple Recipe App
 This is my first simple react project.
 
 It is a recipe app which fetches meal data based on your search.
