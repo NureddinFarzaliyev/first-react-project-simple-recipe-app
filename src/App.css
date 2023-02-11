@@ -1,0 +1,79 @@
+:root {
+    --input: hsl(0, 0%, 23%);
+    --body: hsl(200, 6%, 10%);
+    --button: hsl(0, 0%, 42%);
+    --bg: hsl(200, 6%, 10%);
+}
+
+
+
+body {
+    overflow-x: hidden;
+    color: #fff;
+    background-color: var(--bg);
+}
+
+form {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+button {
+    margin-left: .1rem;
+    border: none;
+    width: 5rem;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    background-color: var(--button);
+    color: #fff;
+}
+
+input {
+    height: 2rem;
+    width: 20rem;
+    font-size: 1rem;
+    padding-left: .5rem;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    background-color: var(--input);
+    color: #fff;
+}
+
+.main {
+    background-color: var(--input);
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-flex;
+    max-height: 30rem;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    height: 90px;
+    width: 300px;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+#recipes {
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+}
